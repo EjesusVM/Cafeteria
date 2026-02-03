@@ -12,7 +12,7 @@ export default function Proceso() {
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio perspiciatis quis animi porro nobis illum error laudantium vero ea, dolorum excepturi voluptatem vitae! At ipsum illum ea a sed laudantium.</p>
                     </div>
                     <div className="imagen">
-                        <img src="../../public/img/proceso_1.jpg" alt="proceso"/>
+                        <img src="/img/proceso_1.jpg" alt="proceso"/>
                     </div>
 
                 </div>
@@ -23,7 +23,7 @@ export default function Proceso() {
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio perspiciatis quis animi porro nobis illum error laudantium vero ea, dolorum excepturi voluptatem vitae! At ipsum illum ea a sed laudantium.</p>
                     </div>
                     <div className="imagen">
-                        <img src="../../public/img/proceso_2.jpg" alt="proceso"/>
+                        <img src="/img/proceso_2.jpg" alt="proceso"/>
                     </div>
                 </div>
                 <div className="proceso">
@@ -32,7 +32,7 @@ export default function Proceso() {
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio perspiciatis quis animi porro nobis illum error laudantium vero ea, dolorum excepturi voluptatem vitae! At ipsum illum ea a sed laudantium.</p>
                     </div>
                     <div className="imagen">
-                        <img src="../../public/img/proceso_3.jpg" alt="proceso"/>
+                        <img src="/img/proceso_3.jpg" alt="proceso"/>
                     </div>
                 </div>
                 
@@ -42,7 +42,7 @@ export default function Proceso() {
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio perspiciatis quis animi porro nobis illum error laudantium vero ea, dolorum excepturi voluptatem vitae! At ipsum illum ea a sed laudantium.</p>
                     </div>
                     <div className="imagen">
-                        <img src="../../public/img/proceso_4.jpg" alt="proceso"/>
+                        <img src="/img/proceso_4.jpg" alt="proceso"/>
                     </div>
                 </div>
 
@@ -53,7 +53,7 @@ export default function Proceso() {
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio perspiciatis quis animi porro nobis illum error laudantium vero ea, dolorum excepturi voluptatem vitae! At ipsum illum ea a sed laudantium.</p>
                     </div>
                     <div className="imagen">
-                        <img src="../../public/img/proceso_5.jpg" alt="proceso"/>
+                        <img src="/img/proceso_5.jpg" alt="proceso"/>
                     </div>
                 </div>
             </div>
