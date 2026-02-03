@@ -4,8 +4,7 @@ Sitio web de una cafetería desarrollado con **React + TypeScript + Vite**.
 Proyecto enfocado en estructura, reutilización de componentes y navegación por rutas.
 
 ## Demo
- https://TU-LINK-DE-NETLIFY.netlify.app
-
+ https://cafeteriareact.netlify.app/
 ## Tecnologías
 - React
 - TypeScript
