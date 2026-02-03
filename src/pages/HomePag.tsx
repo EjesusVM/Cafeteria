@@ -19,17 +19,17 @@ export default function Home() {
                 <section className="iconos">
                     <ul className="listado-iconos">
                         <li>
-                            <img src="../public/img/icono_cafe.svg" alt="icono cafe" />
+                            <img src="/public/img/icono_cafe.svg" alt="icono cafe" />
                             <p>Cafe</p>
                         </li>
 
                         <li>
-                            <img src="../public/img/icono_postre.svg" alt="icono postre" />
+                            <img src="/public/img/icono_postre.svg" alt="icono postre" />
                             <p>Postre</p>
                         </li>
 
                         <li>
-                            <img src="../public/img/icono_te.svg" alt="icono Te" />
+                            <img src="/public/img/icono_te.svg" alt="icono Te" />
                             <p>Te</p>
                         </li>
                     </ul>
