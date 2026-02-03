@@ -18,7 +18,7 @@ Proyecto enfocado en estructura, reutilización de componentes y navegación por
 - Navegación dinámica con `NavLink`
 - Layout persistente (Header/Footer)
 
-## ✨ Funcionalidades
+## Funcionalidades
 - Navegación SPA
 - Rutas dinámicas
 - Componentes reutilizables
