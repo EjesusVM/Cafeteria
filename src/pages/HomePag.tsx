@@ -1,9 +1,9 @@
-import { Menu, Galeria} from "../Components"
+import { Menu, Galeria } from "../Components"
 // import {icono_cafe}  from "../../public/img/icono_cafe.svg"
 
 export default function Home() {
     return (
-        <div>
+        <div >
             <main className="contenedor contenido-principal text-center">
 
                 <section>
@@ -42,7 +42,10 @@ export default function Home() {
 
             </main >
 
-            <Menu />
+            <div className="margenTop">
+
+                <Menu />
+            </div>
 
             <section >
                 <div className="contenedor testimoniales-contenedor">

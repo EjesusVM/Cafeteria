@@ -878,6 +878,7 @@ footer p.derechos {
 .footer-grid {
   padding: 3rem;
   background-color: #fff;
+  border-radius: 0 0 20% 20%;
 }
 @media (min-width: 768px) {
   .footer-grid {
@@ -1053,12 +1054,19 @@ footer p.derechos {
 }
 
 .nuestro-menu {
-  background-image: url(../../src/img/menu_arriba.svg), url(../../src/img/menu_abajo.svg), linear-gradient(to top, #5E311E, #5E311E);
+  background-image: url(/img/menu_arriba.svg), url(/img/menu_abajo.svg), linear-gradient(to top, #5E311E, #5E311E);
   background-repeat: no-repeat;
   background-position: center 0, center 95%, 100%;
   background-size: 150%;
   padding: 15rem 5rem 20rem 5rem;
+  margin-top: -15rem;
+  /* padding: 5rem 5rem 20rem 5rem; */
 }
+.margenTop{
+  margin-top: 15rem;
+}
+
+
 @media (min-width: 768px) {
   .nuestro-menu {
     background-size: 100%;
@@ -1113,9 +1121,9 @@ footer p.derechos {
   font-size: 3rem;
 }
 
-.contenido-contacto {
+/* .contenido-contacto {
   margin-top: 3rem;
-  background-image: url(../../src/img/granos_cafe.jpg);
+  background-image: url(/img/granos_cafe.jpg);
   background-repeat: no-repeat;
   background-position: right bottom;
   aspect-ratio: 1/4;
@@ -1162,4 +1170,212 @@ footer p.derechos {
     background-position: right;
     aspect-ratio: 0;
   }
+} */
+
+
+
+.contacto{
+  padding: 5rem 1.5rem;
+  background: #f7f3ee;
+  margin-top: -15rem;
+}
+
+.contacto__wrap{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.contacto__header{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contacto__kicker{
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  /* font-size: .78rem; */
+  font-size: 2rem;
+  color: #7a5a45;
+  margin: 0 0 .5rem;
+}
+
+.contacto__title{
+  font-size: clamp(2rem, 3.2vw, 2.8rem);
+  margin: 0 0 -10rem;
+  color: #2a1c14;
+}
+.contacto__title span{ color:#7a3f23; }
+
+.contacto__subtitle{
+  margin: .75rem auto 0;
+  max-width: 56ch;
+  color: #5a463b;
+  line-height: 1.6;
+}
+
+.contacto__grid{
+  display: grid;
+  grid-template-columns: 1.1fr .9fr;
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+.contacto__card{
+  background: rgba(255,255,255,.78);
+  border: 1px solid rgba(42, 28, 20, .08);
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(42, 28, 20, .08);
+  backdrop-filter: blur(8px);
+  padding: 1.5rem;
+}
+
+.contacto__form{
+  display: grid;
+  gap: 1rem;
+}
+
+.field label{
+  display:block;
+  font-size: 2rem;
+  color: #3b2a20;
+  margin-bottom: .35rem;
+}
+
+.field input,
+.field select,
+.field textarea{
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(42, 28, 20, .18);
+  padding: .85rem .95rem;
+  background: #fff;
+  color: #2a1c14;
+  outline: none;
+  transition: border-color .15s, box-shadow .15s, transform .05s;
+  font-size: 1rem;
+}
+
+.field textarea{ resize: vertical; }
+
+.field input:focus,
+.field select:focus,
+.field textarea:focus{
+  border-color: rgba(122, 63, 35, .65);
+  box-shadow: 0 0 0 4px rgba(122, 63, 35, .12);
+}
+
+.fieldRow{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.contacto__actions{
+  display: grid;
+  gap: .75rem;
+  margin-top: .25rem;
+}
+
+.btn{
+  border: 0;
+  border-radius: 14px;
+  padding: .95rem 1rem;
+  font-weight: 650;
+  cursor: pointer;
+  transition: transform .05s, filter .15s, box-shadow .15s;
+}
+
+.btn:active{ transform: translateY(1px); }
+
+.btn--whats{
+  background: linear-gradient(180deg, #1fbf66, #159a52);
+  color: #fff;
+  box-shadow: 0 12px 22px rgba(21, 154, 82, .25);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:.6rem;
+  font-size: 2.5rem;
+}
+
+.btn--whats:hover{ filter: brightness(1.03); }
+
+.btn--ghost{
+  background: transparent;
+  border: 1px solid rgba(42, 28, 20, .18);
+  color: #2a1c14;
+}
+
+.btn__icon{
+  width: 30px;
+  height: 30px;
+  display:grid;
+  place-items:center;
+  border-radius: 10px;
+  background: rgba(255,255,255,.18);
+}
+
+.contacto__hint{
+  margin: 0;
+  font-size: 2.5rem;
+  color: #6b5547;
+  line-height: 1.5;
+}
+
+.contacto__visual{
+  border-radius: 18px;
+  border: 1px solid rgba(42, 28, 20, .08);
+  background: radial-gradient(1200px 500px at 30% 20%, rgba(122,63,35,.16), transparent 60%),
+              linear-gradient(180deg, rgba(255,255,255,.55), rgba(255,255,255,.25));
+  box-shadow: 0 10px 30px rgba(42, 28, 20, .06);
+  overflow: hidden;
+  position: relative;
+}
+
+.contacto__visualInner{
+  padding: 1.5rem;
+  height: 100%;
+  display:grid;
+  gap: .75rem;
+  align-content: start;
+}
+
+.contacto__badge{
+  justify-self: start;
+  font-size: 1.5rem;
+  padding: .35rem .6rem;
+  border-radius: 999px;
+  background: rgba(122,63,35,.12);
+  color: #7a3f23;
+  border: 1px solid rgba(122,63,35,.18);
+  margin: 0;
+}
+
+.contacto__visual h3{
+  margin: .2rem 0 0;
+  color: #2a1c14;
+  /* font-size: 1.2rem; */
+  font-size: 2.5rem;
+}
+
+.contacto__visual p{
+  margin: 0;
+  color: #5a463b;
+  line-height: 1.6;
+}
+
+.contacto__img{
+  margin-top: .75rem;
+  border-radius: 16px;
+  height: 240px;
+  background:
+    linear-gradient(180deg, rgba(42,28,20,.05), rgba(42,28,20,.12)),
+    url("/img/granos_cafe.jpg") center/cover no-repeat;
+  border: 1px solid rgba(42, 28, 20, .10);
+}
+
+@media (max-width: 860px){
+  .contacto__grid{ grid-template-columns: 1fr; }
+  .contacto__img{ height: 200px; }
+  .fieldRow{ grid-template-columns: 1fr; }
 }
