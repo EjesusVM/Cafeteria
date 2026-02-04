@@ -7,7 +7,7 @@ export default function Footer() {
             <div>
                 <h3>Ubicacion</h3>
                 <p>Nicolas copernico 5990 </p>
-                <p>guadalajara jalisco</p>
+                <p>Ciudad de Mexico</p>
             </div>
             
             <div>

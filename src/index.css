@@ -413,9 +413,10 @@ h2::after, .heading-blanco::after {
   display: block;
   height: 10rem;
   width: 10rem;
-  background-image: url(../../src/img/cafe.svg);
+  background-image: url(/img/cafe.svg);
   margin: 0 auto;
   background-size: 10rem;
+  
 }
 
 .heading-blanco {
@@ -627,6 +628,7 @@ h3 {
   padding: 5rem 2rem;
   position: relative;
   margin-top: -5rem;
+  margin-bottom: 0;
 }
 @media (min-width: 768px) {
   .contenido-principal, .contenido-principalm {
@@ -1201,16 +1203,18 @@ footer p.derechos {
 
 .contacto__title{
   font-size: clamp(2rem, 3.2vw, 2.8rem);
-  margin: 0 0 -10rem;
+  margin: 0 0 0rem;
   color: #2a1c14;
 }
-.contacto__title span{ color:#7a3f23; }
+.contacto__title span{ color:#7a3f23;
+ }
 
 .contacto__subtitle{
   margin: .75rem auto 0;
   max-width: 56ch;
   color: #5a463b;
   line-height: 1.6;
+  font-size: 2rem;
 }
 
 .contacto__grid{

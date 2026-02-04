@@ -10,11 +10,11 @@ export default function Home() {
 
                     <h2 className="titulo-principal"><span>Conoce mas </span> sobre nosotros</h2>
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consectetur quam velit fugiat, nam non
-                        omnis ad, recusandae aperiam provident distinctio? Cum quia quibusdam dignissimos eos illum, vel quidem.
-                        Enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nisi sed ratione autem officiis
-                        ullam, doloremque nobis magni, accusantium fuga hic dolorum culpa consequatur quisquam atque? Cum quae
-                        nulla quas.</p>
+                    <p>En nuestra cafetería creemos que el café es más que una bebida: es una experiencia. Por eso seleccionamos granos de calidad y los preparamos con cuidado, para que cada taza tenga el aroma y el sabor que mereces.
+
+                        Aquí puedes venir a empezar el día con energía, tomarte un descanso por la tarde o simplemente disfrutar una charla tranquila con un buen café en la mano. Nuestro espacio está pensado para que te sientas cómodo, ya sea que vengas solo, en pareja o con amigos.
+
+                    </p>
                 </section>
 
                 <section className="iconos">

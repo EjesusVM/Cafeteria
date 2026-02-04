@@ -4,29 +4,38 @@ export default function Nosotros() {
     <div>
       <main className="contenedor contenido-principal ">
 
-        <section>   
-            
-            <h2 className="titulo-principal"><span>Conoce mas </span> sobre nosotros</h2>
+        <section>
+
+          <h2 className="titulo-principal"><span>Conoce mas </span> sobre nosotros</h2>
         </section>
 
 
         <div className="contenido-nosotros">
-            <div className="imagen-nosotros">
-                <img src="../../src/img/nosotros_sidebar.jpg" alt=""/>
-            </div>
+          <div className="imagen-nosotros">
+            <img src="../../src/img/nosotros_sidebar.jpg" alt="" />
+          </div>
 
-            <div className="texto-nosotros">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia autem nemo exercitationem repellendus cupiditate temporibus esse voluptates, assumenda dolorum, eum ipsa neque. Blanditiis laborum magnam fuga. Numquam fugit maiores dolor. </p>
+          <div className="texto-nosotros">
+            <p>
+              Somos una cafetería creada para quienes disfrutan un buen café y un ambiente tranquilo.
+              Cuidamos cada detalle, desde la selección del grano hasta la preparación de cada bebida,
+              para que siempre recibas calidad en cada visita.
+            </p>
 
-                <blockquote>exelente sabor</blockquote>
+            <blockquote>Excelente sabor, en cada taza</blockquote>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id reprehenderit vel officia accusamus modi itaque qui nesciunt? Illum non natus quasi voluptate neque, explicabo totam quae maxime quam repellendus ea.</p>
-            </div>
+            <p>
+              Nuestro espacio está pensado para que te sientas cómodo y disfrutes el momento.
+              Ya sea que vengas a trabajar, a platicar o simplemente a relajarte, aquí encontrarás
+              un lugar donde el café y la buena atención van de la mano.
+            </p>
+          </div>
+
 
         </div>
 
-        
-    </main>
+
+      </main>
     </div>
   )
 }
